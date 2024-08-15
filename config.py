@@ -2,9 +2,9 @@ from os import environ
 
 
 # BOT CONFIG
-API_ID = environ.get("API_ID", 123456)  # api id
-API_HASH = environ.get("API_HASH", "")  # api hash
-BOT_TOKEN = environ.get("BOT_TOKEN", "")  # bot token
+API_ID = environ.get("API_ID", "12380656")  # api id
+API_HASH = environ.get("API_HASH", "d927c13beaaf5110f25c505b7c071273")  # api hash
+BOT_TOKEN = environ.get("BOT_TOKEN", "7083320989:AAG37M-slwN4Jv-gn_yFLQ_w3KRmVEDLXr4")  # bot token
 
 # REDIS
 REDIS_HOST = environ.get("REDIS_HOST", "redis-15437.c299.asia-northeast1-1.gce.redns.redis-cloud.com:15437")  # redis host uri
@@ -14,11 +14,11 @@ REDIS_PASSWORD = environ.get(
 )  # redis password
 
 
-ADMINS = [6791744215]
-OWNER_ID = 6791744215  # Replace with your Telegram user ID
-PRIVATE_CHAT_ID = -100  # CHAT WHERE YOU WANT TO STORE VIDEOS
-USER_CHANNEL = -100
-DUMP_CHANNEL = -100
+ADMINS = [6076683960]
+OWNER_ID = 6076683960  # Replace with your Telegram user ID
+PRIVATE_CHAT_ID = -1002222901508 # CHAT WHERE YOU WANT TO STORE VIDEOS
+USER_CHANNEL = -1002222901508
+DUMP_CHANNEL = -1002222901508
 
 
 # Config
